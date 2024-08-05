@@ -1,0 +1,735 @@
+
+Merging program properties
+
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o (0x3) and /tmp/ccb74c75.o (not found)
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o (not found) and /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o (0x3)
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o (not found) and /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o (0x3)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ .note.gnu.property
+                0x0000000000000000       0x50 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .rodata        0x0000000000000000        0x8 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .note.gnu.property
+                0x0000000000000000       0x50 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .text          0x0000000000000000        0x0 /tmp/ccb74c75.o
+ .data          0x0000000000000000        0x0 /tmp/ccb74c75.o
+ .bss           0x0000000000000000        0x0 /tmp/ccb74c75.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccb74c75.o
+ .note.gnu.property
+                0x0000000000000000       0x30 /tmp/ccb74c75.o
+ .text          0x0000000000000000        0x0 build/arr.c.o
+ .data          0x0000000000000000        0x0 build/arr.c.o
+ .bss           0x0000000000000000        0x0 build/arr.c.o
+ .text.__pure_arr_get
+                0x0000000000000000       0x49 build/arr.c.o
+ .text.__pure_arr_get_ref
+                0x0000000000000000       0x35 build/arr.c.o
+ .data.pure_arr_iter_interface
+                0x0000000000000000        0x8 build/arr.c.o
+ .text.pure_arr_get
+                0x0000000000000000       0x55 build/arr.c.o
+ .text.pure_arr_get_ref
+                0x0000000000000000       0x55 build/arr.c.o
+ .text.pure_arr_swap
+                0x0000000000000000       0xd3 build/arr.c.o
+ .text.pure_arr_iter_init
+                0x0000000000000000       0x44 build/arr.c.o
+ .text.pure_arr_iter_next
+                0x0000000000000000       0x86 build/arr.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/arr.c.o
+ .note.gnu.property
+                0x0000000000000000       0x30 build/arr.c.o
+ .text          0x0000000000000000        0x0 build/list.c.o
+ .data          0x0000000000000000        0x0 build/list.c.o
+ .bss           0x0000000000000000        0x0 build/list.c.o
+ .text.pure_list_node_insert_front
+                0x0000000000000000       0x75 build/list.c.o
+ .text.pure_list_node_insert_back
+                0x0000000000000000       0x7f build/list.c.o
+ .text.pure_list_node_remove_front
+                0x0000000000000000       0x6b build/list.c.o
+ .text.pure_list_node_remove_back
+                0x0000000000000000       0x68 build/list.c.o
+ .text.pure_list_node_del_and_move_next
+                0x0000000000000000       0x7b build/list.c.o
+ .text.pure_list_node_del_and_move_prev
+                0x0000000000000000       0x7a build/list.c.o
+ .text.pure_list_new
+                0x0000000000000000       0x5b build/list.c.o
+ .text.pure_list_init
+                0x0000000000000000       0x4a build/list.c.o
+ .text.__pure_list_del
+                0x0000000000000000       0x6d build/list.c.o
+ .text.pure_list_del_with_fn_t
+                0x0000000000000000       0x88 build/list.c.o
+ .text.pure_list_insert_head
+                0x0000000000000000       0x4b build/list.c.o
+ .text.pure_list_insert_tail
+                0x0000000000000000       0x4b build/list.c.o
+ .text.pure_list_remove_head
+                0x0000000000000000       0x4b build/list.c.o
+ .text.pure_list_remove_tail
+                0x0000000000000000       0x4b build/list.c.o
+ .text.pure_list_is_empty
+                0x0000000000000000       0x24 build/list.c.o
+ .text.pure_list_len
+                0x0000000000000000       0x15 build/list.c.o
+ .text.pure_list_get_head
+                0x0000000000000000       0x52 build/list.c.o
+ .text.pure_list_get_tail
+                0x0000000000000000       0x4d build/list.c.o
+ .text.pure_list_get_head_data
+                0x0000000000000000       0x52 build/list.c.o
+ .text.pure_list_get_tail_data
+                0x0000000000000000       0x51 build/list.c.o
+ .data.pure_list_iter_interface
+                0x0000000000000000        0x8 build/list.c.o
+ .text.pure_list_iter_next
+                0x0000000000000000       0x91 build/list.c.o
+ .text.pure_list_iter_new
+                0x0000000000000000       0x6e build/list.c.o
+ .text.pure_list_iter_init
+                0x0000000000000000       0x52 build/list.c.o
+ .text.pure_list_iter_step
+                0x0000000000000000       0x3b build/list.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/list.c.o
+ .note.gnu.property
+                0x0000000000000000       0x30 build/list.c.o
+ .text          0x0000000000000000        0x0 build/stack.c.o
+ .data          0x0000000000000000        0x0 build/stack.c.o
+ .bss           0x0000000000000000        0x0 build/stack.c.o
+ .text.pure_stack_remaining_space
+                0x0000000000000000       0x25 build/stack.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/stack.c.o
+ .note.gnu.property
+                0x0000000000000000       0x30 build/stack.c.o
+ .text          0x0000000000000000        0x0 build/utils.c.o
+ .data          0x0000000000000000        0x0 build/utils.c.o
+ .bss           0x0000000000000000        0x0 build/utils.c.o
+ .text.double_ptr_check
+                0x0000000000000000       0x28 build/utils.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/utils.c.o
+ .note.gnu.property
+                0x0000000000000000       0x30 build/utils.c.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .note.gnu.property
+                0x0000000000000000       0x50 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x50 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+LOAD /tmp/ccb74c75.o
+LOAD build/arr.c.o
+LOAD build/list.c.o
+LOAD build/stack.c.o
+LOAD build/utils.c.o
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc_s.so
+START GROUP
+LOAD /lib64/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/libc.so
+START GROUP
+LOAD /lib64/libc.so.6
+LOAD /usr/lib64/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc_s.so
+START GROUP
+LOAD /lib64/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+LOAD /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x400000))
+                0x0000000000400318                . = (SEGMENT_START ("text-segment", 0x400000) + SIZEOF_HEADERS)
+
+.interp         0x0000000000400318       0x1c
+ *(.interp)
+ .interp        0x0000000000400318       0x1c /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.note.gnu.property
+                0x0000000000400338       0x40
+ .note.gnu.property
+                0x0000000000400338       0x40 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400378       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400378       0x24 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.note.ABI-tag   0x000000000040039c       0x20
+ .note.ABI-tag  0x000000000040039c       0x20 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000004003c0       0x1c
+ *(.gnu.hash)
+ .gnu.hash      0x00000000004003c0       0x1c /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.dynsym         0x00000000004003e0       0xa8
+ *(.dynsym)
+ .dynsym        0x00000000004003e0       0xa8 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.dynstr         0x0000000000400488       0x6f
+ *(.dynstr)
+ .dynstr        0x0000000000400488       0x6f /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.gnu.version    0x00000000004004f8        0xe
+ *(.gnu.version)
+ .gnu.version   0x00000000004004f8        0xe /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.gnu.version_d  0x0000000000400508        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000400508        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.gnu.version_r  0x0000000000400508       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400508       0x40 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.rela.dyn       0x0000000000400548       0x30
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000400548        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000400548        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400548       0x30 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400578        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x0000000000400578       0x60
+ *(.rela.plt)
+ .rela.plt      0x0000000000400578       0x60 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+ .rela.iplt     0x00000000004005d8        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.relr.dyn
+ *(.relr.dyn)
+                0x0000000000401000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000401000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000401000       0x16 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+                0x0000000000401000                _init
+ .init          0x0000000000401016        0x5 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+
+.plt            0x0000000000401020       0x50
+ *(.plt)
+ .plt           0x0000000000401020       0x50 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                0x0000000000401030                free@@GLIBC_2.2.5
+                0x0000000000401040                __assert_fail@@GLIBC_2.2.5
+                0x0000000000401050                memcpy@@GLIBC_2.14
+                0x0000000000401060                malloc@@GLIBC_2.2.5
+ *(.iplt)
+ .iplt          0x0000000000401070        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.plt.got        0x0000000000401070        0x0
+ *(.plt.got)
+ .plt.got       0x0000000000401070        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000401070      0x636
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000401070       0x35 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                0x0000000000401070                _start
+                0x00000000004010a0                _dl_relocate_static_pie
+ .text          0x00000000004010a5        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ *fill*         0x00000000004010a5        0xb 
+ .text          0x00000000004010b0       0xa6 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .text.main     0x0000000000401156      0x133 /tmp/ccb74c75.o
+                0x0000000000401156                main
+ .text.__pure_arr_set
+                0x0000000000401289       0x49 build/arr.c.o
+ .text.pure_arr_set
+                0x00000000004012d2       0x55 build/arr.c.o
+                0x00000000004012d2                pure_arr_set
+ .text.pure_arr_init
+                0x0000000000401327       0x3e build/arr.c.o
+                0x0000000000401327                pure_arr_init
+ .text.pure_arr_new
+                0x0000000000401365       0xa5 build/arr.c.o
+                0x0000000000401365                pure_arr_new
+ .text.pure_arr_del
+                0x000000000040140a       0x2e build/arr.c.o
+                0x000000000040140a                pure_arr_del
+ .text.__pure_arr_get
+                0x0000000000401438       0x49 build/stack.c.o
+ .text.pure_stack_push
+                0x0000000000401481       0x54 build/stack.c.o
+                0x0000000000401481                pure_stack_push
+ .text.pure_stack_pop
+                0x00000000004014d5       0x5d build/stack.c.o
+                0x00000000004014d5                pure_stack_pop
+ .text.pure_stack_peek
+                0x0000000000401532       0x4d build/stack.c.o
+                0x0000000000401532                pure_stack_peek
+ .text.pure_stack_new
+                0x000000000040157f       0xa6 build/stack.c.o
+                0x000000000040157f                pure_stack_new
+ .text.pure_stack_init
+                0x0000000000401625       0x36 build/stack.c.o
+                0x0000000000401625                pure_stack_init
+ .text.pure_stack_del
+                0x000000000040165b       0x39 build/stack.c.o
+                0x000000000040165b                pure_stack_del
+ .text.pure_stack_len
+                0x0000000000401694       0x12 build/stack.c.o
+                0x0000000000401694                pure_stack_len
+ .text          0x00000000004016a6        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .text          0x00000000004016a6        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+ *(.gnu.warning)
+
+.fini           0x00000000004016a8        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x00000000004016a8        0x8 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+                0x00000000004016a8                _fini
+ .fini          0x00000000004016b0        0x5 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000402000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000402000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000402000       0x94
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000402000       0x8f /tmp/ccb74c75.o
+ .rodata.__PRETTY_FUNCTION__.0
+                0x000000000040208f        0x5 /tmp/ccb74c75.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000402094       0x94
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000402094       0x94 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                0x0000000000402094                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000402128      0x22c
+ *(.eh_frame)
+ .eh_frame      0x0000000000402128       0x40 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                                         0x5c (size before relaxing)
+ *fill*         0x0000000000402168        0x0 
+ .eh_frame      0x0000000000402168       0x28 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000402190        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .eh_frame      0x0000000000402190       0x20 /tmp/ccb74c75.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x00000000004021b0       0xa0 build/arr.c.o
+                                        0x1a0 (size before relaxing)
+ .eh_frame      0x0000000000402250        0x0 build/list.c.o
+                                        0x318 (size before relaxing)
+ .eh_frame      0x0000000000402250      0x100 build/stack.c.o
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000000402350        0x0 build/utils.c.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000402350        0x4 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ *(.eh_frame.*)
+
+.sframe         0x0000000000402354        0x0
+ *(.sframe)
+ .sframe        0x0000000000402354        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.sframe.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000403df8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000403df8        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000403df8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000403df8        0x8
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000403df8        0x8 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000403e00        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000403e00        0x8 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000403e08        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000403e08        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.dynamic        0x0000000000403e08      0x1d0
+ *(.dynamic)
+ .dynamic       0x0000000000403e08      0x1d0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                0x0000000000403e08                _DYNAMIC
+
+.got            0x0000000000403fd8       0x10
+ *(.got)
+ .got           0x0000000000403fd8       0x10 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.igot)
+                0x0000000000403fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000403fe8       0x38
+ *(.got.plt)
+ .got.plt       0x0000000000403fe8       0x38 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                0x0000000000403fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000404020        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+
+.data           0x0000000000404020       0x18
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.pure_stack_i
+                0x0000000000404020       0x18 build/stack.c.o
+                0x0000000000404020                pure_stack_i
+
+.tm_clone_table
+                0x0000000000404038        0x0
+ .tm_clone_table
+                0x0000000000404038        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .tm_clone_table
+                0x0000000000404038        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+
+.data1
+ *(.data1)
+                0x0000000000404038                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000404038                . = .
+                0x0000000000404038                __bss_start = .
+
+.bss            0x0000000000404038        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000404038        0x0 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000404038        0x1 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ *(COMMON)
+                0x0000000000404040                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000404039        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000404040                . = ALIGN (0x8)
+                0x0000000000404040                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000406040        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000406040                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000406040                . = ALIGN (0x8)
+                0x0000000000404040                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000406040                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x5c
+ *(.comment)
+ .comment       0x0000000000000000       0x2e /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                                         0x8d (size before relaxing)
+ .comment       0x000000000000002e       0x2e /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+                                         0x2f (size before relaxing)
+ .comment       0x000000000000005c       0x2f /tmp/ccb74c75.o
+ .comment       0x000000000000005c       0x2f build/arr.c.o
+ .comment       0x000000000000005c       0x2f build/list.c.o
+ .comment       0x000000000000005c       0x2f build/stack.c.o
+ .comment       0x000000000000005c       0x2f build/utils.c.o
+ .comment       0x000000000000005c       0x2f /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+
+.annobin.notes  0x0000000000000000      0x14f
+ .annobin.notes
+                0x0000000000000000      0x14f /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+                                        0x216 (size before relaxing)
+
+.gnu.build.attributes
+                0x0000000000406040      0x144
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+ .gnu.build.attributes
+                0x0000000000406040       0x24 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o
+ .gnu.build.attributes
+                0x0000000000406064       0x6c /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o
+ .gnu.build.attributes
+                0x00000000004060d0       0x24 /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o
+ .gnu.build.attributes
+                0x00000000004060f4       0x24 /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o
+ .gnu.build.attributes
+                0x0000000000406118       0x6c /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x390
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccb74c75.o
+ .debug_aranges
+                0x0000000000000030       0xe0 build/arr.c.o
+ .debug_aranges
+                0x0000000000000110      0x1a0 build/list.c.o
+ .debug_aranges
+                0x00000000000002b0       0xb0 build/stack.c.o
+ .debug_aranges
+                0x0000000000000360       0x30 build/utils.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x15ee
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x2e0 /tmp/ccb74c75.o
+ .debug_info    0x00000000000002e0      0x59d build/arr.c.o
+ .debug_info    0x000000000000087d      0x856 build/list.c.o
+ .debug_info    0x00000000000010d3      0x49d build/stack.c.o
+ .debug_info    0x0000000000001570       0x7e build/utils.c.o
+
+.debug_abbrev   0x0000000000000000      0x65c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x125 /tmp/ccb74c75.o
+ .debug_abbrev  0x0000000000000125      0x1d3 build/arr.c.o
+ .debug_abbrev  0x00000000000002f8      0x190 build/list.c.o
+ .debug_abbrev  0x0000000000000488      0x177 build/stack.c.o
+ .debug_abbrev  0x00000000000005ff       0x5d build/utils.c.o
+
+.debug_line     0x0000000000000000      0xb66
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0xb6 /tmp/ccb74c75.o
+ .debug_line    0x00000000000000b6      0x2c6 build/arr.c.o
+ .debug_line    0x000000000000037c      0x58d build/list.c.o
+ .debug_line    0x0000000000000909      0x201 build/stack.c.o
+ .debug_line    0x0000000000000b0a       0x5c build/utils.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x58c
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x198 /tmp/ccb74c75.o
+                                        0x202 (size before relaxing)
+ .debug_str     0x0000000000000198      0x124 build/arr.c.o
+                                        0x268 (size before relaxing)
+ .debug_str     0x00000000000002bc      0x298 build/list.c.o
+                                        0x3f1 (size before relaxing)
+ .debug_str     0x0000000000000554       0x38 build/stack.c.o
+                                        0x270 (size before relaxing)
+ .debug_str     0x000000000000058c       0xb5 build/utils.c.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x120
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0xab /tmp/ccb74c75.o
+                                         0xe6 (size before relaxing)
+ .debug_line_str
+                0x00000000000000ab       0x3c build/arr.c.o
+                                         0xd2 (size before relaxing)
+ .debug_line_str
+                0x00000000000000e7       0x1d build/list.c.o
+                                         0xcd (size before relaxing)
+ .debug_line_str
+                0x0000000000000104        0xe build/stack.c.o
+                                         0xd8 (size before relaxing)
+ .debug_line_str
+                0x0000000000000112        0xe build/utils.c.o
+                                         0x66 (size before relaxing)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000      0x21e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000       0x18 /tmp/ccb74c75.o
+ .debug_rnglists
+                0x0000000000000018       0x88 build/arr.c.o
+ .debug_rnglists
+                0x00000000000000a0       0xff build/list.c.o
+ .debug_rnglists
+                0x000000000000019f       0x68 build/stack.c.o
+ .debug_rnglists
+                0x0000000000000207       0x17 build/utils.c.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build/test_stack elf64-x86-64)
