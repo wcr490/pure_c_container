@@ -61,8 +61,8 @@ struct pure_list_iter {
   struct iter_i *iterator;
   struct pure_list *list;
   struct pure_list_node *cur;
-  size_t index;
-  int direction;
+  size_t index; /* Start from 0 */
+  char direction;
 };
 int pure_list_iter_new(struct pure_list_iter **iter, struct pure_list *list,
                        int direction);
